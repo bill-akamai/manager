@@ -59,7 +59,7 @@ const StyledMaterialDesignContent = styled(MaterialDesignContent)(
       borderLeft: theme.notificationToast.warning.borderLeft,
     },
     '&.notistack-MuiContent-secondary': {
-      // TODO: Remove - this version will be phased out
+      // TODO: Remove - this version will be phased out per Davyd
       backgroundColor: '#E5E5EA',
       borderLeft: '#A3A3AB',
     },
