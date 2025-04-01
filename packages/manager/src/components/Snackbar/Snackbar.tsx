@@ -59,8 +59,7 @@ const StyledMaterialDesignContent = styled(MaterialDesignContent)(
       borderLeft: theme.notificationToast.warning.borderLeft,
     },
     '&.notistack-MuiContent-secondary': {
-      // TODO Ask why these are not in the tokens
-      // TODO Ask if max-width is supposed to change
+      // TODO: Remove - this version will be phased out
       backgroundColor: '#E5E5EA',
       borderLeft: '#A3A3AB',
     },
